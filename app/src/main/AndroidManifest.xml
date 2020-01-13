@@ -20,11 +20,11 @@
             </intent-filter>
         </activity>
 
-        <!--activity android:name="com.album.stickview.StickerViewActivity" />
+        <activity android:name="com.qianren.stickview.StickerViewActivity" />
 
-        <activity android:name="com.album.stickview.DeleteActivity"
+        <activity android:name="com.qianren.stickview.DeleteActivity"
             android:theme="@style/DialogTransparent"
-            ></activity-->
+            ></activity>
 
     </application>
 
