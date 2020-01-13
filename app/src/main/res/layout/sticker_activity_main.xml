@@ -34,7 +34,7 @@
             android:textSize="18sp"/>
     </FrameLayout>
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="16dp"/>
 
-    <com.album.stickview.stickerview.StickerView
+    <com.qianren.stickview.stickerview.StickerView
         android:id="@+id/stickerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
