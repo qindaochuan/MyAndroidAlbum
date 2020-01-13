@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+    public final static String EDIT_PIC_PATH = "com.select.pic.edit";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
