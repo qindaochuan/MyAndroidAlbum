@@ -30,7 +30,7 @@ import com.qianren.fragments.ViewPagerFragment;
 import com.qianren.myandroidalbum.R;
 import com.qianren.stickview.DeleteActivity;
 import com.qianren.stickview.StickerViewActivity;
-//import com.qianren.util.CheckImageLoaderConfiguration;
+import com.qianren.util.CheckImageLoaderConfiguration;
 import com.qianren.util.UniversalImageLoader;
 
 import java.io.IOException;
@@ -95,11 +95,11 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onStart() {
         super.onStart();
-//        try {
-//            CheckImageLoaderConfiguration.checkImageLoaderConfiguration(this);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+        try {
+            CheckImageLoaderConfiguration.checkImageLoaderConfiguration(this);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 
