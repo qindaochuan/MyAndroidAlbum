@@ -1,4 +1,4 @@
-package com.qianren.myandroidalbum;
+package com.qianren;
 
 import androidx.appcompat.app.AppCompatActivity;
 
